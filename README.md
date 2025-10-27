@@ -1,28 +1,33 @@
-JobYatra – Spring Boot Job Portal
-Empowering Careers Through Technology
+# 🧭 JobYatra – Spring Boot Job Portal
+### Empowering Careers Through Technology
 
-Overview  
-JobYatra is a complete Spring Boot–based Job Portal Application built to connect job seekers and employers on a single platform.  
+## 🚀 Overview  
+**JobYatra** is a complete **Spring Boot–based Job Portal Application** built to connect **job seekers and employers** on a single platform.  
 It simplifies the recruitment process with an intuitive interface, secure login system, admin management, and email notifications.  
 
-Key Features
-For Job Seekers
+---
+
+## 🎯 Key Features
+
+### 👩‍💼 For Job Seekers
 - Register and log in securely  
 - Search and apply for jobs online  
 - View application status and updates via email  
 
-For Employers
+### 🏢 For Employers
 - Register and log in securely  
 - Post new job openings  
 - Manage and review applications  
 - Receive alerts for new candidates  
 
-For Admin
+### 🧑‍💻 For Admin
 - Oversee all users, jobs, and applications  
 - Manage platform security and data integrity  
 - Monitor overall system activity  
 
-Technology Stack
+---
+
+## 🧩 Technology Stack
 
 | Layer | Technology Used |
 |-------|------------------|
@@ -35,18 +40,19 @@ Technology Stack
 | **Version Control** | Git & GitHub |
 | **IDE** | IntelliJ IDEA / Eclipse |
 
+---
 
-Setup Instructions
+## ⚙️ Setup Instructions
 
-Clone the repository
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/PrernaJha07/JobYatra-SpringBoot.git
 
 ```
-Navigate to the project folder
+2️⃣ Navigate to the project folder
 cd JobYatra-SpringBoot
 
-Configure Database
+3️⃣ Configure Database
 
 Create a MySQL database (for example, jobyatra_db)
 
@@ -60,37 +66,37 @@ spring.mail.username=youremail@gmail.com
 spring.mail.password=your_app_password
 
 
-Note:
+⚠️ Note:
 Keep your real application.properties file local only (it’s ignored by Git).
 Use the .example file as a public template for others.
 
-Run the project
+4️⃣ Run the project
 mvn spring-boot:run
 
-Access the application
+5️⃣ Access the application
 
 Open your browser and go to:
-http://localhost:8080
+👉 http://localhost:8080
 
-Email Notifications
+📬 Email Notifications
 
 Automatically sends emails for:
 
--New job postings
+New job postings
 
--Application confirmations
+Application confirmations
 
--Application status updates
+Application status updates
 
-Security Features
+🔐 Security Features
 
--Password encryption using Spring Security
+Password encryption using Spring Security
 
--Role-based access: Admin, Employer, Job Seeker
+Role-based access: Admin, Employer, Job Seeker
 
--CSRF protection and secure session management
+CSRF protection and secure session management
 
-Future Enhancements
+📊 Future Enhancements
 
 Cloud storage for resumes
 
@@ -100,18 +106,18 @@ AI-based job recommendations
 
 Multi-language support
 
-Author
+👩‍💻 Author
 
 👤 Prerna Jha
-📧 GitHub Profile
+📧 GitHub Profile - https://github.com/PrernaJha07
 
-Passionate about full-stack development and modern web technologies.
+💬 Passionate about full-stack development and modern web technologies.
 
-License
+🏁 License
 
 This project is licensed under the MIT License – feel free to use, modify, and enhance with proper credits.
 
-.gitignore
+🛡️ 2️⃣ .gitignore
 # Maven target directory
 /target/
 
@@ -145,7 +151,7 @@ src/main/resources/application.properties
 *.war
 *.ear
 
-application.properties.example
+⚙️ 3️⃣ application.properties.example
 # ============================================
 # Application Properties Example
 # Rename this file to 'application.properties'
