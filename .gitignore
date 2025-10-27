@@ -1,1 +1,2 @@
 # Git ignore file 
+"src/main/resources/application.properties" 
